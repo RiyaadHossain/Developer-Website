@@ -1,11 +1,19 @@
 body{
-    font-family: 'Roboto', sans-serif;  
+    font-family: 'Poppins', sans-serif; 
     margin: 0;
     padding: 0;
 }
 
 h1{
     font-size: 50px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+section{
+    margin-bottom: 50px;
 }
 
 .banner-top{
@@ -16,7 +24,7 @@ h1{
     color: orangered;
 }
 
-section{
+.flex-sec{
     display: flex;
 }
 
@@ -46,4 +54,36 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp-item{
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 15px gray;
+    padding:10px 10px 50px 36px;
+    letter-spacing: 4;
+    border-radius: 10px;
+}
+
+#f-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
+#w-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
 }
